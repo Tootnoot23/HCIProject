@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,600&display=swap%27'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", "sans-serif";
+    zoom: 100%;
+}
+#Main-Container{
+    width: 100%;
+}
+
+body {
+    background-color: #A17D8A;
+}
+
+#Navbar {
+    background-color: #98717F;
+    margin: auto;
+    padding: 25px 0;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 28px;
+    position: relative;
+}
+
+#Navbar ul li a{
+    color: black;
+    text-transform: uppercase;
+}
+#Navbar ul li :hover{
+   color: white;
+   transition: 0.6s;
+}
+
+.mt{
+    padding-left: 25px;
+    font-style: italic;
+    font-weight: 400;
+    text-decoration: none;
+    color: #555;
+}
+#a{
+    text-decoration: none;
+}
+
+.aboutUs {
+    width: 30%;
+    position: absolute;
+    padding-left: 200px;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: justify;
+}
+
+.aboutUs > h4 {
+    font-weight: 300;
+}
+
+.icon {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: justify;
+    background-color: #866873;
+    border-radius: 50%;
+    box-shadow: #4C3B41 18px 18px;
+}
+.iconText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 22.7%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 200%;
+    text-shadow: #4C3B41 6px 6px;
+}
+
+#Subscribe{
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+    margin-top: 5px;
+    border-radius: 20px;
+    margin-left: 825px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2{
+    max-width: 100px;
+    padding: 50px 0;
+}
+
+/* .col-2 > img {
+    height: 75vh;
+    width: 140%;
+} */
