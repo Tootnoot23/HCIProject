@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,600&display=swap%27'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins", "sans-serif";
+    zoom: 100%;
+}
+
+#Main-Container{
+    width: 100%;
+}
+
+#Navbar {
+    background-color: #98717F;
+    margin: auto;
+    padding: 25px 0;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 28px;
+    position: relative;
+}
+
+#Navbar ul li a{
+    color: black;
+    text-transform: uppercase;
+}
+#Navbar ul li :hover{
+   color: white;
+   transition: 0.6s;
+}
+
+body {
+    background-color: #A17D8A;
+}
+
+.image {
+    margin: auto;
+    width: 50%;
+    padding-top: 4%;
+    padding-right: 21%;
+}
+
+.map {
+    height: 75vh;
+    width: 150vh;
+    position: absolute;
+}
+
+h1 {
+    padding-top: 30px;
+    padding-left: 55px;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+}
+
+.indonesia{
+    padding-top: 20px;
+    padding-left: 55px;
+    position: absolute;
+    top: 30%;
+    font-size: 40px;
+}
+
+.flexbox {
+    column-count: 2;
+    color: white;
+    position: relative;
+    padding-top: 170px;
+    padding-left: 140px;
+    column-gap: 600px;
+}
+
+.flexbox > div {
+    padding: 20px;
+}
