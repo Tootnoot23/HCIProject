@@ -83,7 +83,6 @@ img {
   height: 100%;
   width: 100%;
 }
-
 .aboutUs > h1 {
   padding: 10px;
   background-color: rgba(0,0,0,0);
@@ -93,7 +92,6 @@ img {
     font-weight: 300;
     background-color: rgba(0,0,0,0);
 }
-
 .icon {
     height: 400px;
     width: 400px;
