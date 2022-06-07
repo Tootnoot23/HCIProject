@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subscribe | M & T</title>
-    <script src="script.js" defer></script>
+    <script src="/subscribe.js" defer></script>
     <link rel="stylesheet" href="styles/subscribe.css">
 </head>
 
 <body>
+  <nav>
   <nav class="navbar">
     <div class="title">
       <a href="#">M & T</a>
@@ -30,66 +31,35 @@
       </ul>
     </div>
   </nav>
+  </nav>
   <div class="container">
-    <div class="card-container">
-        <div class="left">
-            <div class="left-container">
-                <img src="images/logo.png" alt="Logo">
-                <p> Be Stylish With Us!</p>
-            </div>
-        </div>
-        <div class="right">
-            <div class="right-container">
-                <form action="">
-                    <h2> Subscribe Here!<h2>
-                    <input type="text"placeholder="Full name">  
-                    <input type="email"placeholder="Email">
-                    <input type="phone"placeholder="Phone Number">
-                    <input type="text"placeholder="Country">
-                    <button>Subscribe Now</button>
-        </div>
+    <div class="login">
+      <form action="">
+        <h2>Subscribe Here!!</h2>
+        <hr>
+        <label for="">Nama Lengkap</label>
+        <input type="text"placeholder="Full Name" id="txtUsername">
+        <br>
+        <label for="">Email</label>
+        <input type="email"placeholder="email@gmail.com" id="txtEmail">
+        <br>
+        <label for="">Nomor Telephone</label>
+        <input type="text"placeholder="Phone Number" id="txtPhone">
+        <br>
+        <label for="">Negara</label>
+        <input type="text"placeholder="Country" id="txtCountry">
+        <br>
+        <input type="radio" name="gender" id="radioMale">Male
+        <input type="radio" name="gender" id="radioFemale">Female
+        <br>
+        <input type="checkbox" name="" id="checkAgree">I Agree with terms and condition
+        <p id="error" style="color:red; font: size 10px;"></p>
+        <button>Subscribe</button>
+      </form>
     </div>
-</div>          
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="subscribe.js" defer></script>
-    <title>Subscribe | M & T</title>
-    <link rel="stylesheet" href="styles/subscribe.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="title">
-          <a href="#">M & T</a>
-        </div>
-        <a href="#" class="toggle-button">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="#">Clothes</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Location</a></li>
-            <li><a href="#">Subscribe!</a></li>
-          </ul>
-        </div>
-    </nav>
-    <div class="container""
-        <div class="card-container">">
-            <div class="left">
-               
-            </div>
-            
-        </div>       
-    </div>div>
-    
+    <div class="right">
+        <img src="images/logo.png" alt="logo">
+    </div>
+  </div>
 </body>
 </html>
