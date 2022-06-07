@@ -11,6 +11,8 @@
   body{
     margin: 0;
     padding: 0;
+    background-image: url(../images/BackgroundPattern.png);
+    height: 100%;
     width: 100%;
   }
   .navbar{
@@ -24,8 +26,8 @@
     margin: .5rem;
   }
   .title a{
-    text-deblackion: none;
-    color: white;
+    text-decoration: none;
+    color: black;
   }
   .navbar-links ul{
     margin: 0;
@@ -38,8 +40,8 @@
     list-style: none;
   }
   .navbar-links li a{
-    text-deblackion: none;
-    color: white;
+    text-decoration: none;
+    color: black;
     padding: 1rem;
     display: block;
   }
@@ -89,45 +91,87 @@
     .navbar-links.active{
         display: flex;
     }
+    .icon {
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      text-align: justify;
+      background-color: #866873;
+      box-shadow: #4C3B41 18px 18px;
+      background-image: url(../images/logo.png);
+      background-position-x: -40px;
+      background-position-y: -50px;
+    }
   }
-  .header{
-    text-align: left;
+  img {
+    height: fit-content;
+    width: fit-content;
+  }
+  .aboutUs {
+    margin-left: 10%;
+    width: 30%;
     position: absolute;
-    padding: 200px 250px;
-  }
-  .quote{
-    text-align: left;
-    padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .foto img{
-    margin-left: 950px;
-    width: 550px;
-    height: 750px;
-    margin-top: 50px;
-    margin-bottom: 400px;
-  }
-  .tag{
-    padding-top: 50px;
-  }
-  .button{
-    text-align: left;
-    padding-top: 30px;
-  }
-  .btn{
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #ff1d6c;
-    width: 150px;
-    padding: 5px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    box-shadow: 0 0 10px;
-    text-align: center;
-    box-shadow: 0 0 10px;
-  }
-  
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: justify;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.aboutUs > h1 {
+  padding: 10px;
+  background-color: rgba(0,0,0,0);
+}
+.aboutUs > h4 {
+    padding: 10px;
+    font-weight: 300;
+}
+
+.icon {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: justify;
+    background-color: #866873;
+    box-shadow: #4C3B41 18px 18px;
+    background-image: url(../images/logo.png);
+    background-position-x: -40px;
+    background-position-y: -50px;
+}
+.iconText {
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 22.5%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 200%;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2{
+    max-width: 100px;
+    padding: 50px 0;
+}

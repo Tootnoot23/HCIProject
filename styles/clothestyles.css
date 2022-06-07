@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,600&display=swap%27'); 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+
 *{
     margin: 0px;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
     font-family: "Poppins","sans-serif";
     background-color: #98717F;
-    overflow-y: hidden;
+    font-family: "poppins",sans-serif;
   }
   body{
     margin: 0;
     padding: 0;
-    width: 100%;
   }
   .navbar{
     display: flex;
@@ -24,8 +24,8 @@
     margin: .5rem;
   }
   .title a{
-    text-deblackion: none;
-    color: white;
+    text-decoration: none;
+    color: black;
   }
   .navbar-links ul{
     margin: 0;
@@ -38,8 +38,8 @@
     list-style: none;
   }
   .navbar-links li a{
-    text-deblackion: none;
-    color: white;
+    text-decoration: none;
+    color: black;
     padding: 1rem;
     display: block;
   }
@@ -90,44 +90,88 @@
         display: flex;
     }
   }
-  .header{
-    text-align: left;
-    position: absolute;
-    padding: 200px 250px;
-  }
-  .quote{
-    text-align: left;
-    padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .foto img{
-    margin-left: 950px;
-    width: 550px;
-    height: 750px;
-    margin-top: 50px;
-    margin-bottom: 400px;
-  }
-  .tag{
-    padding-top: 50px;
-  }
-  .button{
-    text-align: left;
-    padding-top: 30px;
-  }
-  .btn{
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #ff1d6c;
-    width: 150px;
-    padding: 5px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    box-shadow: 0 0 10px;
-    text-align: center;
-    box-shadow: 0 0 10px;
-  }
-  
+
+.category {
+  background-image: url("../images/menfashion2.webp");
+  height: 50vh;
+  width: 107vw;
+  position: relative;
+  left: -7%;
+  background-position: 10% 40%;
+  background-repeat: no-repeat;
+}
+
+.categorytxt {
+  font-size: 50px;
+  position: absolute;
+  color: white;
+  text-shadow: 0px 0px 20px black;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 0px;
+  left: 42%;
+  top: 25%;
+}
+
+.column {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tops {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url(../images/Tops.jpg);
+  background-size: 90%;
+  background-position-y: -250px;
+  height: 40vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  opacity: 80%;
+  transition:  0.6s;
+}
+
+.topstxt {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  position: relative;
+  left: 35%;
+  top: 40%;
+  text-shadow: 0px 0px 20px black;
+}
+
+.tops:hover {
+  opacity: 100%;
+  transition: 0.6s;
+}
+
+.bottoms {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url(../images/bottoms.jpg);
+  background-size: 100%;
+  height: 40vh;
+  width: 30vw;
+  background-repeat: no-repeat;
+  opacity: 80%;
+  transition:  0.6s;
+}
+
+.bottomstxt {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  position: relative;
+  left: 35%;
+  top: 40%;
+  text-shadow: 0px 0px 20px black;
+}
+
+.bottoms:hover {
+  opacity: 100%;
+  transition: 0.6s;
+}
+
+
+
+
+
+
