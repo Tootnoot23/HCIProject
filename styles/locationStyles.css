@@ -81,17 +81,16 @@ body {
 }
 
 h1 {
-  padding-top: 30px;
+  padding-top: -10px;
   padding-left: 55px;
-  position: absolute;
-  top: 10%;
+  position: relative;
   font-size: 50px;
 }
 
 .indonesia{
+  padding-top: 20px;
   padding-left: 55px;
-  position: absolute;
-  top: 30%;
+  position: relative;
   font-size: 40px;
 }
 
@@ -99,7 +98,6 @@ h1 {
   column-count: 2;
   color: white;
   position: relative;
-  padding-top: 170px;
   padding-left: 140px;
   column-gap: 600px;
   text-shadow: 0 0 5px black;
@@ -144,7 +142,7 @@ h1 {
     margin-top: -10px;
   }
   .flexbox {
-    margin-top: -120px;
+    /* margin-top: -120px; */
     padding-bottom: 200px;
     column-gap: 300px;
     font-size: 8px;
