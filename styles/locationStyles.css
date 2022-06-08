@@ -43,7 +43,6 @@ body{
   display: block;
 }
 .navbar-links li:hover{
-  background-color: #a5003c;
   border-bottom: 3px solid black;
   transition: all .3s ease;
 }
