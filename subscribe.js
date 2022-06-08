@@ -7,16 +7,16 @@ toggleButton.addEventListener('click',()=>{
 
 function validate(){
 
-    let username = document.getElementById("txtUsername").value
-    let email = document.getElementById("txtEmail").value
-    let phone = document.getElementById("txtPhone").value
-    let country = document.getElementById("dropCountry").value
-    let rMale = document.getElementById("radioMale").checked
-    let rFemale = document.getElementById("radioFemale").checked
-    let checkBox =  document.getElementById("checkAgree").checked
+    let username = document.getElementById("username").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value;
+    let country = document.getElementById("country").value;
+    let rMale = document.getElementById("radioMale").checked;
+    let rFemale = document.getElementById("radioFemale").checked;
+    let checkBox =  document.getElementById("checkAgree").checked;
 
     if(username == ""){
-        return showError("Username must be filled")
+        return showError("Username must be filled!!")
     }
     else if(email.indexOf("@") == -1){
         return showError("Email must contains '@'")
@@ -42,11 +42,14 @@ function validate(){
     else if(checkBox == false){
         return showError("Must agree to terms and condition")
     }
+    else{
+        alert("Login Succses");
+    }
 }
 
 let.error = document.getElementById("error")
-
 function showError(message){
     error.innerHTML = message
     return false
 }
+

@@ -8,179 +8,146 @@
     overflow-y: hidden;
 }
 
-  body{
-    margin: 0;
-    padding: 0;
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .title{
-    font-size: 1.5rem;
-    padding-left: 100px;
-    margin: .5rem;
-  }
-  .title a{
-    text-decoration: none;
-    color: black;
-  }
-  .navbar-links ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    padding-right: 50px;
-    cursor: pointer;
-  }
-  .navbar-links li{
-    list-style: none;
-  }
-  .navbar-links li a{
-    text-decoration: none;
-    color: black;
-    padding: 1rem;
-    display: block;
-  }
-  .navbar-links li:hover{
-    background-color: #a5003c;
-    border-bottom: 3px solid black;
-    transition: all .3s ease;
-  }
-  .toggle-button{
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-  }
-  .toggle-button .bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
-  }
-  @media(max-width: 800px){
-    .toggle-button{
-        display: flex;
-    }
-    .navbar-links{
-        display: none;
-        width: 100%;
-    }
-    .navbar{
-        flex-direction: column;
-        align-items:flex-start;
-    }
-    .navbar-links ul{
-        width: 100%;
-        flex-direction: column;
-    }
-    .navbar-links li{
-        text-align: center;
-    }
-    .navbar-links li a{
-        padding: .7rem 3rem;
-    }
-    .navbar-links.active{
-        display: flex;
-    }
-  }
-
-
+body{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  font-size: 1.5rem;
+  padding-left: 100px;
+  margin: .5rem;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+}
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-right: 50px;
+  cursor: pointer;
+}
+.navbar-links li{
+  list-style: none;
+}
+.navbar-links li a{
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  display: block;
+}
+.navbar-links li:hover{
+  background-color: #a5003c;
+  border-bottom: 3px solid black;
+  transition: all .3s ease;
+}
+.toggle-button{
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+.toggle-button .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
 body {
-    background-color: #A17D8A;
+  background-color: #A17D8A;
 }
 
 .image {
-    margin: auto;
-    width: 50%;
-    padding-top: 4%;
-    padding-right: 21%;
+  margin: auto;
+  width: 50%;
+  padding-top: 4%;
+  padding-right: 21%;
 }
 
 .map {
-    height: 75vh;
-    width: 150vh;
-    position: fixed;
+  height: 75vh;
+  width: 150vh;
+  position: fixed;
 }
 
 h1 {
-    padding-top: 30px;
-    padding-left: 55px;
-    position: absolute;
-    top: 10%;
-    font-size: 50px;
+  padding-top: 30px;
+  padding-left: 55px;
+  position: absolute;
+  top: 10%;
+  font-size: 50px;
 }
 
 .indonesia{
-    padding-top: 20px;
-    padding-left: 55px;
-    position: absolute;
-    top: 30%;
-    font-size: 40px;
+  padding-left: 55px;
+  position: absolute;
+  top: 30%;
+  font-size: 40px;
 }
 
 .flexbox {
-    column-count: 2;
-    color: white;
-    position: relative;
-    padding-top: 170px;
-    padding-left: 140px;
-    column-gap: 600px;
+  column-count: 2;
+  color: white;
+  position: relative;
+  padding-top: 170px;
+  padding-left: 140px;
+  column-gap: 600px;
+  text-shadow: 0 0 5px black;
 }
 
 .flexbox > div {
-    padding: 20px;
+  padding: 20px;
 }
 
-.pin1 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    left: 25%;
-    bottom: 47%;
-}
-
-.pin2 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    left: 31.5%;
-    bottom: 27%
-}
-
-.pin3 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    left: 36.5%;
-    top: 33%;
-}
-
-.pin4 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    left: 49.2%;
-    bottom: 17%;
-}
-
-.pin5 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    right: 45%;
-    top: 46%;
-}
-
-.pin6 {
-    height: 5%;
-    width: 1.5%;
-    position: fixed;
-    right: 39%;
-    top: 36%;
+@media(max-width: 800px){
+  .toggle-button{
+      display: flex;
+  }
+  .navbar-links{
+      display: none;
+      width: 100%;
+  }
+  .navbar{
+      flex-direction: column;
+      align-items:flex-start;
+      position: relative;
+  }
+  .navbar-links ul{
+      width: 100%;
+      flex-direction: column;
+  }
+  .navbar-links li{
+      text-align: center;
+  }
+  .navbar-links li a{
+      padding: .7rem 3rem;
+  }
+  .navbar-links.active{
+      display: flex;
+  }
+  h1 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  .indonesia {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .flexbox {
+    margin-top: -120px;
+    padding-bottom: 200px;
+    column-gap: 300px;
+    font-size: 8px;
+    margin-left: -50px;
+  }
 }

@@ -2,64 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Subscribe | M & T</title>
-    <script src="/subscribe.js" defer></script>
-    <link rel="stylesheet" href="styles/subscribe.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subscribe | M & T</title>
+  <script src="subscribe.js" defer></script>
+  <link rel="stylesheet" href="styles/subscribe.css">
 </head>
 
 <body>
   <nav>
-  <nav class="navbar">
-    <div class="title">
-      <a href="#">M & T</a>
-    </div>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-    <div class="navbar-links">
-      <ul>
+    <nav class="navbar">
+      <div class="title">
+        <a href="#">M & T</a>
+      </div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
           <li><a href="clothes.html">Clothes</a></li>
           <li><a href="aboutus.html">About Us</a></li>
           <li><a href="location.html">Location</a></li>
           <li><a href="subscribe.html">Subscribe!</a></li>
-      </ul>
-    </div>
-  </nav>
+        </ul>
+      </div>
+    </nav>
   </nav>
   <div class="container">
     <div class="login">
-      <form action="">
+      <form action="" onsubmit="return validate()">
         <h2>Subscribe Here!!</h2>
         <hr>
         <label for="">Nama Lengkap</label>
-        <input type="text"placeholder="Full Name" id="txtUsername">
+        <input type="text" placeholder="Full Name" id="username">
         <br>
         <label for="">Email</label>
-        <input type="email"placeholder="email@gmail.com" id="txtEmail">
+        <input type="email" placeholder="email@gmail.com" id="email">
         <br>
         <label for="">Nomor Telephone</label>
-        <input type="text"placeholder="Phone Number" id="txtPhone">
+        <input type="text" placeholder="Phone Number" id="phone">
         <br>
         <label for="">Negara</label>
-        <input type="text"placeholder="Country" id="txtCountry">
+        <input type="text" placeholder="Country" id="country">
         <br>
         <input type="radio" name="gender" id="radioMale">Male
         <input type="radio" name="gender" id="radioFemale">Female
         <br>
         <input type="checkbox" name="" id="checkAgree">I Agree with terms and condition
-        <p id="error" style="color:red; font: size 10px;"></p>
+        <p id="error"
+          style="color:#990000; font: size 20px; font-weight: bold; font-family: 'comic sans ms', sans-serif;"></p>
         <button>Subscribe</button>
       </form>
     </div>
     <div class="right">
-        <img src="images/logo.png" alt="logo">
+      <img src="images/logo.png" alt="logo">
     </div>
   </div>
 </body>
+
 </html>

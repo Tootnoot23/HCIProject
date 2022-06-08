@@ -9,9 +9,12 @@
     overflow-y: hidden;
   }
   body{
-    margin: 0;
+    margin: 0;      
     padding: 0;
+    background-image: url(../images/BackgroundPattern.png);
+    height: 100%;
     width: 100%;
+    opacity: 100%;
   }
   .navbar{
     display: flex;
@@ -64,6 +67,49 @@
     background-color: white;
     border-radius: 10px;
   }
+  .header{
+    text-align: left;
+    position: absolute;
+    padding: 200px 250px;
+  }
+  .quote{
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .foto img{
+    margin-left: 950px;
+    width: 550px;
+    height: 750px;
+    margin-top: 50px;
+    margin-bottom: 400px;
+  }
+  .tag{
+    padding-top: 50px;
+  }
+  .button{
+    text-align: left;
+    padding-top: 20px;
+  }
+  .button a{
+    margin-left: 60px;
+  }
+  .btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ff1d6c;
+    width: 150px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    text-align: center;
+    box-shadow: 0 0 10px;
+  }
   @media(max-width: 800px){
     .toggle-button{
         display: flex;
@@ -89,45 +135,19 @@
     .navbar-links.active{
         display: flex;
     }
-  }
-  .header{
-    text-align: left;
-    position: absolute;
-    padding: 200px 250px;
-  }
-  .quote{
-    text-align: left;
-    padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .foto img{
-    margin-left: 950px;
-    width: 550px;
-    height: 750px;
-    margin-top: 50px;
-    margin-bottom: 400px;
-  }
-  .tag{
-    padding-top: 50px;
-  }
-  .button{
-    text-align: left;
-    padding-top: 30px;
-  }
-  .btn{
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #ff1d6c;
-    width: 150px;
-    padding: 5px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-    box-shadow: 0 0 10px;
-    text-align: center;
-    box-shadow: 0 0 10px;
+    .header {
+      text-align: justify;
+      width: 50%;
+      padding: 20px;
+      font-size: 10px;
+    }
+    .foto img {
+      position: relative;
+      margin-top: 0px;
+      bottom: -10%;
+      right: 75%;
+      height: 100%;
+      width: 40%;
+    }
   }
   
